@@ -1,0 +1,20 @@
+ 1. Install CentOS 8
+ 2. connect as root
+ 3. wget http://mirror.centos.org/centos/7/os/x86_64/Packages/compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
+    yum localinstall -y compat-libstdc++-33-3.2.3-72.el7.x86_64.rpm
+ 4. wget http://mirror.centos.org/centos/7/os/x86_64/Packages/compat-libcap1-1.10-7.el7.x86_64.rpm
+    yum localinstall -y compat-libcap1-1.10-7.el7.x86_64.rpm
+ 5. yum install -y libnsl
+-- 5. wget http://mirror.centos.org/centos/7/os/x86_64/Packages/xorg-x11-apps-7.7-7.el7.x86_64.rpm
+--    yum localinstall -y xorg-x11-apps-7.7-7.el7.x86_64.rpm
+ 6. yum localinstall -y jdk-11.0.11_linux-x64_bin.rpm
+ 7. yum localinstall -y oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
+ 8. yum localinstall -y oracle-database-ee-19c-1.0-1.x86_64.rpm
+ 9. /opt/oracle/product/19c/dbhome_1/root.sh
+10. connect as root again
+11. xhost +
+12. connect as oracle
+13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+    export PATH=$ORACLE_HOME/bin:$PATH
+14. $ORACLE_HOME/bin/dbca
+15. $ORACLE_HOME/bin/netca
