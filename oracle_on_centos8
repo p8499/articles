@@ -11,10 +11,10 @@
  7. yum localinstall -y oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
  8. yum localinstall -y oracle-database-ee-19c-1.0-1.x86_64.rpm
  9. /opt/oracle/product/19c/dbhome_1/root.sh
-10. connect as root again
+10. connect as jdeuser
 11. xhost +
 12. connect as oracle
-13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
-    export PATH=$ORACLE_HOME/bin:$PATH
-14. $ORACLE_HOME/bin/dbca
-15. $ORACLE_HOME/bin/netca
+--13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+--    export PATH=$ORACLE_HOME/bin:$PATH
+13. /opt/oracle/product/19c/dbhome_1/bin/dbca
+14. /opt/oracle/product/19c/dbhome_1/bin/netca
