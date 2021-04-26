@@ -17,4 +17,6 @@
 13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
     export PATH=$ORACLE_HOME/bin:$PATH
 14. $ORACLE_HOME/bin/dbca
-14. $ORACLE_HOME/bin/netca
+15. $ORACLE_HOME/bin/netca
+16. Firewall configuration
+    systemctl status firewalld.service
