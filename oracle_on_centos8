@@ -16,5 +16,27 @@
     export PATH=$ORACLE_HOME/bin:$PATH
 14. $ORACLE_HOME/bin/dbca
 15. $ORACLE_HOME/bin/netca
-16. Firewall configuration
+16. connect as root
+17. Firewall configuration
     systemctl status firewalld.service
+18. Change owner of /opt/oracle/product/19c/dbhome_1/network/log to oracle
+    可能因为使用root安装的原因
+19. Change /etc/oratab
+    salesdv:/opt/oracle/product/19c/dbhome_1:Y
+20. Create /etc/init.d/dbora
+[Unit]
+Description=Oracle Database Service
+After=network.target
+ 
+[Service]
+Type=forking
+ExecStart=/opt/oracle/product/19c/dbhome_1/bin/dbstart /opt/oracle/product/19c/dbhome_1
+ExecStop=/opt/oracle/product/19c/dbhome_1/bin/dbshut /opt/oracle/product/19c/dbhome_1
+User=root
+TimeoutSec=300s
+ 
+[Install]
+WantedBy=multi-user.target
+21. systemctl daemon-reload
+22. systemctl enable --now dbora.service
+23. systemctl status dbora.service
