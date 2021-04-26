@@ -32,7 +32,7 @@ After=network.target
 Type=forking
 ExecStart=/opt/oracle/product/19c/dbhome_1/bin/dbstart /opt/oracle/product/19c/dbhome_1
 ExecStop=/opt/oracle/product/19c/dbhome_1/bin/dbshut /opt/oracle/product/19c/dbhome_1
-User=root
+User=oracle
 TimeoutSec=300s
  
 [Install]
