@@ -5,8 +5,6 @@
  4. wget http://mirror.centos.org/centos/7/os/x86_64/Packages/compat-libcap1-1.10-7.el7.x86_64.rpm
     yum localinstall -y compat-libcap1-1.10-7.el7.x86_64.rpm
  5. yum install -y libnsl
--- 5. wget http://mirror.centos.org/centos/7/os/x86_64/Packages/xorg-x11-apps-7.7-7.el7.x86_64.rpm
---    yum localinstall -y xorg-x11-apps-7.7-7.el7.x86_64.rpm
  6. yum localinstall -y jdk-11.0.11_linux-x64_bin.rpm
  7. yum localinstall -y oracle-database-preinstall-19c-1.0-1.el7.x86_64.rpm
  8. yum localinstall -y oracle-database-ee-19c-1.0-1.x86_64.rpm
