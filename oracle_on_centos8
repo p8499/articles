@@ -14,7 +14,7 @@
 10. connect as jdeuser
 11. xhost +
 12. connect as oracle
---13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
---    export PATH=$ORACLE_HOME/bin:$PATH
-13. /opt/oracle/product/19c/dbhome_1/bin/dbca
-14. /opt/oracle/product/19c/dbhome_1/bin/netca
+13. export ORACLE_HOME=/opt/oracle/product/19c/dbhome_1
+    export PATH=$ORACLE_HOME/bin:$PATH
+14. $ORACLE_HOME/bin/dbca
+14. $ORACLE_HOME/bin/netca
