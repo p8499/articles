@@ -23,6 +23,8 @@
     可能因为使用root安装的原因
 19. Change /etc/oratab
     salesdv:/opt/oracle/product/19c/dbhome_1:Y
+    
+https://oracle-base.com/articles/linux/automating-database-startup-and-shutdown-on-linux
 20. Create /etc/init.d/dbora
 [Unit]
 Description=Oracle Database Service
