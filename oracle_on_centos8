@@ -25,6 +25,8 @@
     salesdv:/opt/oracle/product/19c/dbhome_1:Y
     
 https://oracle-base.com/articles/linux/automating-database-startup-and-shutdown-on-linux
+https://blog.csdn.net/TianXieZuoMaiKong/article/details/90574629
+
 20. Create /etc/systemd/system/dbora.service
 [Unit]
 Description=Oracle Database Service
