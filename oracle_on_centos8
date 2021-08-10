@@ -25,7 +25,7 @@
     salesdv:/opt/oracle/product/19c/dbhome_1:Y
     
 https://oracle-base.com/articles/linux/automating-database-startup-and-shutdown-on-linux
-20. Create /etc/init.d/dbora
+20. Create /etc/systemd/system/dbora.service
 [Unit]
 Description=Oracle Database Service
 After=network.target
@@ -39,6 +39,5 @@ TimeoutSec=300s
  
 [Install]
 WantedBy=multi-user.target
-21. systemctl daemon-reload
-22. systemctl enable --now dbora.service
-23. systemctl status dbora.service
+
+21. systemctl enable dbora.service
