@@ -110,3 +110,7 @@ esac
 更改权限
 chmod 750 /etc/init.d/dbora
 chkconfig --add dbora
+
+22. 开机后手动启动oracle
+service dbora start
+service dbora stop
