@@ -15,3 +15,5 @@ JoinQuant: https://www.joinquant.com/help/api/help?name=index#%E5%8E%86%E5%8F%B2
 Docker远程: https://www.cnblogs.com/niceyoo/p/13270224.html
 
 Gitlab-ce: https://packages.gitlab.com/gitlab/gitlab-ce/install#bash-rpm
+https://blog.csdn.net/qq_43626147/article/details/109160229
+yum install -y gitlab-ce
