@@ -12,4 +12,6 @@ MyQuant: https://www.myquant.cn/docs/python/43
 
 JoinQuant: https://www.joinquant.com/help/api/help?name=index#%E5%8E%86%E5%8F%B2%E8%A1%8C%E6%83%85%E6%95%B0%E6%8D%AE
 
-docker远程: https://www.cnblogs.com/niceyoo/p/13270224.html
+Docker远程: https://www.cnblogs.com/niceyoo/p/13270224.html
+
+Gitlab-ce: https://packages.gitlab.com/gitlab/gitlab-ce/install
