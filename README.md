@@ -17,3 +17,6 @@ Docker远程: https://www.cnblogs.com/niceyoo/p/13270224.html
 Gitlab-ce: https://packages.gitlab.com/gitlab/gitlab-ce/install#bash-rpm
 https://blog.csdn.net/qq_43626147/article/details/109160229
 yum install -y gitlab-ce
+
+RabbitMQ: https://www.cnblogs.com/townsend/p/11276222.html
+https://www.rabbitmq.com/install-rpm.html#package-cloud
